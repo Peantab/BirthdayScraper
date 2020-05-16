@@ -1,4 +1,4 @@
-# Birthday Scrapper
+# Birthday Scraper
 
 by Paweł Taborowski
 
@@ -6,7 +6,8 @@ Script for scraping an HTML file of Facebook's birthdays: https://www.facebook.c
 
 It expects the input in a file `to_scrap.txt`
 
-It creates the file `birthday.ics` as an output.
+It creates the file `birthday.ics` as an output, which you can import into your favourite calendar app
+(e.g. *Google Calendar*, Windows' *Calendar* app, *Outlook*).
 
 To get a correct file you need to enter the website, scroll down (make it load the whole year) and copy the HTML
 from e.g Google Chrome's Inspector (the "show source" won't load the whole year). For script to work correctly,
